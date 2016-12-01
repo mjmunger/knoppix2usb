@@ -8,3 +8,5 @@ Usage: makekusb [/dev/device] [/path/to/knoppix.iso] [--skip-image]
 
 It's also recommended that you zero out the disk before use, but it's not required:
  dd if=/dev/zero of=/dev/device
+#Dependencies:
+mkdiskimage - On Debian: apt install syslinux-utils/stable
